@@ -1,0 +1,13 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+transformers>=5.15
+groq>=0.30
+pydantic>=2.0
+python-dotenv>=1.0
+python-multipart>=0.0.9
+pydub>=0.25
+faster-whisper>=1.1
+pyannote.audio>=3.3
+sentence-transformers>=3.0
+scikit-learn>=1.5
+numpy>=2.0

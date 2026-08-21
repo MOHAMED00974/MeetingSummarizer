@@ -1,0 +1,394 @@
+[
+  {
+    "meeting_id": "meeting_001",
+    "date": "2026-08-19",
+    "title": "Backend Architecture",
+    "summary": "The team discussed database architecture.",
+    "key_points": [
+      "PostgreSQL and MongoDB were compared.",
+      "The system needs semantic retrieval."
+    ],
+    "segments": [
+      {
+        "speaker_name": "Ahmed",
+        "start": 10.0,
+        "end": 18.0,
+        "text": "We need a reliable database for structured meeting data."
+      },
+      {
+        "speaker_name": "Mohamed",
+        "start": 19.0,
+        "end": 29.0,
+        "text": "MongoDB is flexible, but PostgreSQL gives us relational structure."
+      },
+      {
+        "speaker_name": "Ahmed",
+        "start": 30.0,
+        "end": 42.0,
+        "text": "We agree to use PostgreSQL for the meeting intelligence system."
+      },
+      {
+        "speaker_name": "Ahmed",
+        "start": 43.0,
+        "end": 52.0,
+        "text": "I will prepare the database schema tomorrow."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "database",
+        "decision": "Use PostgreSQL",
+        "speaker": "Ahmed",
+        "timestamp": 30.0,
+        "status": "ACTIVE"
+      }
+    ],
+    "action_items": [
+      {
+        "task": "Prepare the database schema",
+        "owner": "Ahmed",
+        "deadline": "Tomorrow",
+        "timestamp": 43.0
+      }
+    ],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_002",
+    "date": "2026-08-20",
+    "title": "Database Review",
+    "segments": [
+      {
+        "speaker_name": "Mohamed",
+        "start": 20.0,
+        "end": 30.0,
+        "text": "After reviewing the requirements, we changed the database decision to MongoDB."
+      },
+      {
+        "speaker_name": "Ahmed",
+        "start": 31.0,
+        "end": 38.0,
+        "text": "The new choice should support flexible document storage."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "database",
+        "decision": "Use MongoDB",
+        "speaker": "Mohamed",
+        "timestamp": 20.0,
+        "status": "ACTIVE"
+      }
+    ],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_003",
+    "date": "2026-08-20",
+    "title": "LLM Integration",
+    "segments": [
+      {
+        "speaker_name": "Mohamed",
+        "start": 20.0,
+        "end": 30.0,
+        "text": "I suggest to use copilot for LLM integration, it has a good API."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "AI",
+        "decision": "Use Copilot",
+        "speaker": "Mohamed",
+        "timestamp": 20.0,
+        "status": "ACTIVE"
+      }
+    ],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_004",
+    "date": "2026-08-21",
+    "title": "LLM Integration",
+    "segments": [
+      {
+        "speaker_name": "Ali",
+        "start": 20.0,
+        "end": 30.0,
+        "text": "after reviewing the requirements, we changed the decision for LLM integration to OpenAI."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "AI",
+        "decision": "Use OpenAI",
+        "speaker": "Ali",
+        "timestamp": 20.0,
+        "status": "ACTIVE"
+      }
+    ],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_73b8591bf98b4ae298cf37d8fed69c61",
+    "id": "meeting_73b8591bf98b4ae298cf37d8fed69c61",
+    "date": "2026-08-20",
+    "title": "tutorials_assets_sample",
+    "filename": "tutorials_assets_sample.wav",
+    "created_at": "2026-08-20T13:15:19.376285+00:00",
+    "processed_at": "2026-08-20T13:16:13.822767+00:00",
+    "status": "processed",
+    "segments": [
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 6.38,
+        "end": 12.38,
+        "text": "Hello. Hello. Oh, hello. I didn't know you were there. Neither did I. Okay. I thought, you know, I heard of Deep."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 12.38,
+        "end": 17.38,
+        "text": "This is Diane in New Jersey. And I'm Sheila in Texas, originally from Chicago."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 17.38,
+        "end": 21.38,
+        "text": "Oh, I'm originally from Chicago also. I'm in New Jersey now, though."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 21.38,
+        "end": 27.38,
+        "text": "Well, there isn't that much difference. At least, you know, they all call me a Yankee down here."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 27.38,
+        "end": 30.38,
+        "text": "So, what kind of thing? Oh, I don't hear that in New Jersey now."
+      }
+    ],
+    "summary": "The participants introduced themselves, noting that Diane was joining from New Jersey, Sheila was in Texas, and another speaker was originally from Chicago but now resides in New Jersey. They exchanged brief remarks about regional identities, such as being called a “Yankee” in Texas. No specific decisions or action items were made during the meeting.",
+    "key_points": [],
+    "decisions": [],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_5a181c4aca8944a1a416a8e6a240c5ff",
+    "id": "meeting_5a181c4aca8944a1a416a8e6a240c5ff",
+    "date": "2026-08-20",
+    "title": "tutorials_assets_sample",
+    "filename": "tutorials_assets_sample.wav",
+    "created_at": "2026-08-20T13:18:14.127308+00:00",
+    "processed_at": "2026-08-20T13:18:58.586560+00:00",
+    "status": "processed",
+    "segments": [
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 6.38,
+        "end": 12.38,
+        "text": "Hello. Hello. Oh, hello. I didn't know you were there. Neither did I. Okay. I thought, you know, I heard of Deep."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 12.38,
+        "end": 17.38,
+        "text": "This is Diane in New Jersey. And I'm Sheila in Texas, originally from Chicago."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 17.38,
+        "end": 21.38,
+        "text": "Oh, I'm originally from Chicago also. I'm in New Jersey now, though."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 21.38,
+        "end": 27.38,
+        "text": "Well, there isn't that much difference. At least, you know, they all call me a Yankee down here."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 27.38,
+        "end": 30.38,
+        "text": "So, what kind of thing? Oh, I don't hear that in New Jersey now."
+      }
+    ],
+    "summary": "The participants introduced themselves, noting that Diane was joining from New Jersey, Sheila was in Texas, and the third speaker was originally from Chicago but now resides in New Jersey. They exchanged brief remarks about regional identities, such as being called a “Yankee” in Texas. No specific decisions or action items were made during the meeting.",
+    "key_points": [],
+    "decisions": [],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_6e6fc81cae584103872eb939c578abc9",
+    "id": "meeting_6e6fc81cae584103872eb939c578abc9",
+    "date": "2026-08-20",
+    "title": "tutorials_assets_sample",
+    "filename": "tutorials_assets_sample.wav",
+    "created_at": "2026-08-20T14:24:18.680885+00:00",
+    "processed_at": "2026-08-20T14:27:37.338583+00:00",
+    "status": "processed",
+    "segments": [
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 6.38,
+        "end": 12.38,
+        "text": "Hello. Hello. Oh, hello. I didn't know you were there. Neither did I. Okay. I thought, you know, I heard of Deep."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 12.38,
+        "end": 17.38,
+        "text": "This is Diane in New Jersey. And I'm Sheila in Texas, originally from Chicago."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 17.38,
+        "end": 21.38,
+        "text": "Oh, I'm originally from Chicago also. I'm in New Jersey now, though."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 21.38,
+        "end": 27.38,
+        "text": "Well, there isn't that much difference. At least, you know, they all call me a Yankee down here."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 27.38,
+        "end": 30.38,
+        "text": "So, what kind of thing? Oh, I don't hear that in New Jersey now."
+      }
+    ],
+    "summary": "The participants introduced themselves, noting that Diane was joining from New Jersey, Sheila was in Texas, and the third speaker was originally from Chicago but now resides in New Jersey. They exchanged brief remarks about regional identities, such as being called a “Yankee” in Texas. No specific decisions or action items were made during the meeting.",
+    "key_points": [],
+    "decisions": [],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_e30f258c04cf427aaeb655ef5ca130f1",
+    "id": "meeting_e30f258c04cf427aaeb655ef5ca130f1",
+    "date": "2026-08-20",
+    "title": "tutorials_assets_sample",
+    "filename": "tutorials_assets_sample.wav",
+    "created_at": "2026-08-20T14:36:54.613130+00:00",
+    "processed_at": "2026-08-20T14:41:16.529126+00:00",
+    "status": "processed",
+    "segments": [
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 6.38,
+        "end": 12.38,
+        "text": "Hello. Hello. Oh, hello. I didn't know you were there. Neither did I. Okay. I thought, you know, I heard of Deep."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 12.38,
+        "end": 17.38,
+        "text": "This is Diane in New Jersey. And I'm Sheila in Texas, originally from Chicago."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 17.38,
+        "end": 21.38,
+        "text": "Oh, I'm originally from Chicago also. I'm in New Jersey now, though."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 21.38,
+        "end": 27.38,
+        "text": "Well, there isn't that much difference. At least, you know, they all call me a Yankee down here."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 27.38,
+        "end": 30.38,
+        "text": "So, what kind of thing? Oh, I don't hear that in New Jersey now."
+      }
+    ],
+    "summary": "The participants introduced themselves, noting that Diane was joining from New Jersey, Sheila was in Texas, and another speaker was originally from Chicago but now resides in New Jersey. They exchanged brief remarks about regional identities, such as being called a “Yankee” in Texas. No specific decisions or action items were made during the meeting.",
+    "key_points": [],
+    "decisions": [],
+    "action_items": [],
+    "follow_ups": []
+  },
+  {
+    "meeting_id": "meeting_8f4c5c09396545cdbbebeef5c0026e75",
+    "id": "meeting_8f4c5c09396545cdbbebeef5c0026e75",
+    "date": "2026-08-21",
+    "title": "tutorials_assets_sample",
+    "filename": "tutorials_assets_sample.wav",
+    "created_at": "2026-08-21T05:11:12.725129+00:00",
+    "processed_at": "2026-08-21T05:14:00.178174+00:00",
+    "status": "processed",
+    "segments": [
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 6.38,
+        "end": 12.38,
+        "text": "Hello. Hello. Oh, hello. I didn't know you were there. Neither did I. Okay. I thought, you know, I heard of Deep."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 12.38,
+        "end": 17.38,
+        "text": "This is Diane in New Jersey. And I'm Sheila in Texas, originally from Chicago."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 17.38,
+        "end": 21.38,
+        "text": "Oh, I'm originally from Chicago also. I'm in New Jersey now, though."
+      },
+      {
+        "speaker_id": "SPEAKER_01",
+        "speaker_name": "SPEAKER_01",
+        "start": 21.38,
+        "end": 27.38,
+        "text": "Well, there isn't that much difference. At least, you know, they all call me a Yankee down here."
+      },
+      {
+        "speaker_id": "SPEAKER_00",
+        "speaker_name": "SPEAKER_00",
+        "start": 27.38,
+        "end": 30.38,
+        "text": "So, what kind of thing? Oh, I don't hear that in New Jersey now."
+      }
+    ],
+    "summary": "The participants introduced themselves, noting that Diane was joining from New Jersey, Sheila was in Texas, and the other speaker was originally from Chicago but now resides in New Jersey. They exchanged brief remarks about regional nicknames and personal backgrounds. No specific topics were discussed or decisions made during this portion of the meeting.",
+    "key_points": [],
+    "decisions": [],
+    "action_items": [],
+    "follow_ups": []
+  }
+]
